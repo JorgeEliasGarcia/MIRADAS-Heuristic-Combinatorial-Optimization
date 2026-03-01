@@ -1,0 +1,20 @@
+- Starting heuristic -
+---- Iteration:       0 INFEAS
+TSP  Iteration:      32  41863
+TSP  Iteration:      53  41720
+TSP  Iteration:      97  41330
+TSP  Iteration:     119  41115
+---- Iteration:     500  41115
+---- Iteration:       0  41115
+TSP  Iteration:       1  41001
+TSP  Iteration:       3  40791
+TSP  Iteration:      33  40383
+TSP  Iteration:      56  38809
+TSP  Iteration:      71  37744
+TSP  Iteration:      75  36735
+TSP  Iteration:     255  36465
+TSP  Iteration:     330  36121
+TSP  Iteration:     380  35979
+---- Iteration:     500  35979
+Feasible solution found
+

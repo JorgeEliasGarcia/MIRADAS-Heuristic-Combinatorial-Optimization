@@ -1,0 +1,18 @@
+- Starting heuristic -
+TSP  Iteration:       0   2155
+---- Iteration:       0   2155
+TSP  Iteration:       1   2061
+TSP  Iteration:      10   2048
+TSP  Iteration:      11   2021
+TSP  Iteration:      14   1995
+TSP  Iteration:      16   1983
+TSP  Iteration:      19   1976
+TSP  Iteration:      56   1968
+TSP  Iteration:      58   1955
+TSP  Iteration:      77   1952
+---- Iteration:     500   1952
+---- Iteration:       0   1952
+TSP  Iteration:     205   1949
+---- Iteration:     500   1949
+Feasible solution found
+

@@ -1,0 +1,27 @@
+- Starting heuristic -
+TSP  Iteration:       0  88854
+---- Iteration:       0  88854
+TSP  Iteration:      11  87941
+TSP  Iteration:      16  85867
+TSP  Iteration:      30  85647
+TSP  Iteration:     106  85417
+TSP  Iteration:     126  83698
+TSP  Iteration:     267  83657
+TSP  Iteration:     358  83468
+---- Iteration:     500  83468
+TSP  Iteration:       0  82207
+---- Iteration:       0  82207
+TSP  Iteration:     101  81752
+TSP  Iteration:     132  81746
+TSP  Iteration:     206  81584
+TSP  Iteration:     278  81111
+TSP  Iteration:     336  80656
+---- Iteration:     500  80656
+TSP  Iteration:     654  80520
+TSP  Iteration:     697  80242
+TSP  Iteration:     759  80199
+TSP  Iteration:     851  79437
+TSP  Iteration:     866  78411
+TSP  Iteration:     871  78031
+Feasible solution found
+

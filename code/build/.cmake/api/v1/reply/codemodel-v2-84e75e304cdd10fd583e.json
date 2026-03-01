@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "util",
+					"jsonFile" : "directory-util-Release-c386f56db14874d6eb16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "util",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "input",
+					"jsonFile" : "directory-input-Release-b46ac8954c17d8ebeb8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "input",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "solution",
+					"jsonFile" : "directory-solution-Release-d907ed07e1259b0ac0f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "solution",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "heuristic",
+					"jsonFile" : "directory-heuristic-Release-8b3b7bf7636875160a9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "heuristic",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "main",
+					"jsonFile" : "directory-main-Release-c59558c0a3fb20727b44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "main",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ctsp1"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gomautil",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ctsp_io",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ctsp_sol",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "heuristic",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ctsp1_heuristic",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ctsp1_heuristic::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-ctsp1_heuristic-Release-0d0a706299b337346358.json",
+					"name" : "ctsp1_heuristic",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ctsp_io::@7640cc9b7e3662b2250a",
+					"jsonFile" : "target-ctsp_io-Release-8e760cb21781c868cc2a.json",
+					"name" : "ctsp_io",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ctsp_sol::@e5e88c50852dbdcc79dc",
+					"jsonFile" : "target-ctsp_sol-Release-dff463d7b97e2b196db5.json",
+					"name" : "ctsp_sol",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gomautil::@5865449b717dd869d2cd",
+					"jsonFile" : "target-gomautil-Release-0dcc6a19b0179af92b67.json",
+					"name" : "gomautil",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heuristic::@806c86762ddf4e092b7d",
+					"jsonFile" : "target-heuristic-Release-ae14c574d56f50d6e589.json",
+					"name" : "heuristic",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build",
+		"source" : "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

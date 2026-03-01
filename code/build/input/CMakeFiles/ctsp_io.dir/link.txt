@@ -1,0 +1,2 @@
+/usr/bin/ar qc libctsp_io.a CMakeFiles/ctsp_io.dir/src/CTSP_2_heuristic_a_input.cpp.o CMakeFiles/ctsp_io.dir/src/CTSP_instance.cpp.o CMakeFiles/ctsp_io.dir/src/TSPLIB_instance.cpp.o CMakeFiles/ctsp_io.dir/src/io_files.cpp.o CMakeFiles/ctsp_io.dir/src/sync_heuristic_a_input.cpp.o
+/usr/bin/ranlib libctsp_io.a

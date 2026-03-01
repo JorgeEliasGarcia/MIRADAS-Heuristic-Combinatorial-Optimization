@@ -1,0 +1,2 @@
+/usr/bin/ar qc libctsp_sol.a CMakeFiles/ctsp_sol.dir/src/sync_plan.cpp.o CMakeFiles/ctsp_sol.dir/src/sync_solution.cpp.o
+/usr/bin/ranlib libctsp_sol.a

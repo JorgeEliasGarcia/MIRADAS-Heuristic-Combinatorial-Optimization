@@ -1,0 +1,2 @@
+/usr/bin/ar qc libheuristic.a CMakeFiles/heuristic.dir/src/constructive_TSP_based.cpp.o CMakeFiles/heuristic.dir/src/reduce_fitness.cpp.o CMakeFiles/heuristic.dir/src/sync_heuristic.cpp.o
+/usr/bin/ranlib libheuristic.a

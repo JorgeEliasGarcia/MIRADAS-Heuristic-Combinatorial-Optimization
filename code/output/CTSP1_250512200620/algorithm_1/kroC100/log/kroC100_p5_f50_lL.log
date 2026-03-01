@@ -1,0 +1,17 @@
+- Starting heuristic -
+TSP  Iteration:       0  95915
+---- Iteration:       0  95915
+TSP  Iteration:       2  95160
+TSP  Iteration:       5  95085
+TSP  Iteration:       7  94108
+TSP  Iteration:       9  91829
+TSP  Iteration:      10  90302
+TSP  Iteration:     170  88314
+TSP  Iteration:     221  88025
+TSP  Iteration:     396  87601
+TSP  Iteration:     403  86523
+---- Iteration:     500  86523
+---- Iteration:       0  86523
+---- Iteration:     500  86523
+Feasible solution found
+

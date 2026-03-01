@@ -1,0 +1,27 @@
+- Starting heuristic -
+---- Iteration:       0 INFEAS
+TSP  Iteration:       2  44395
+TSP  Iteration:      13  43666
+TSP  Iteration:      21  42213
+---- Iteration:     500  42213
+---- Iteration:    1000  42213
+---- Iteration:    1500  42213
+---- Iteration:    2000  42213
+---- Iteration:    2500  42213
+---- Iteration:    3000  42213
+---- Iteration:    3500  42213
+---- Iteration:    4000  42213
+---- Iteration:    4500  42213
+TSP  Iteration:       0  41811
+---- Iteration:       0  41811
+---- Iteration:     500  41811
+---- Iteration:    1000  41811
+---- Iteration:    1500  41811
+---- Iteration:    2000  41811
+---- Iteration:    2500  41811
+---- Iteration:    3000  41811
+---- Iteration:    3500  41811
+---- Iteration:    4000  41811
+---- Iteration:    4500  41811
+Feasible solution found
+

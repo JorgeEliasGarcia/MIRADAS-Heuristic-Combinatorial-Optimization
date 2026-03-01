@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/util",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/gomautil.dir/src/matrix.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/src/matrix.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/src/matrix.cpp",
+  "output": "util/CMakeFiles/gomautil.dir/src/matrix.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/input",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp_io.dir/src/CTSP_2_heuristic_a_input.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/CTSP_2_heuristic_a_input.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/CTSP_2_heuristic_a_input.cpp",
+  "output": "input/CMakeFiles/ctsp_io.dir/src/CTSP_2_heuristic_a_input.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/input",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp_io.dir/src/CTSP_instance.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/CTSP_instance.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/CTSP_instance.cpp",
+  "output": "input/CMakeFiles/ctsp_io.dir/src/CTSP_instance.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/input",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp_io.dir/src/TSPLIB_instance.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/TSPLIB_instance.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/TSPLIB_instance.cpp",
+  "output": "input/CMakeFiles/ctsp_io.dir/src/TSPLIB_instance.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/input",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp_io.dir/src/io_files.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/io_files.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/io_files.cpp",
+  "output": "input/CMakeFiles/ctsp_io.dir/src/io_files.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/input",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp_io.dir/src/sync_heuristic_a_input.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/sync_heuristic_a_input.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/src/sync_heuristic_a_input.cpp",
+  "output": "input/CMakeFiles/ctsp_io.dir/src/sync_heuristic_a_input.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/solution",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp_sol.dir/src/sync_plan.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/src/sync_plan.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/src/sync_plan.cpp",
+  "output": "solution/CMakeFiles/ctsp_sol.dir/src/sync_plan.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/solution",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp_sol.dir/src/sync_solution.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/src/sync_solution.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/src/sync_solution.cpp",
+  "output": "solution/CMakeFiles/ctsp_sol.dir/src/sync_solution.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/heuristic",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/heuristic.dir/src/constructive_TSP_based.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/src/constructive_TSP_based.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/src/constructive_TSP_based.cpp",
+  "output": "heuristic/CMakeFiles/heuristic.dir/src/constructive_TSP_based.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/heuristic",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/heuristic.dir/src/reduce_fitness.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/src/reduce_fitness.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/src/reduce_fitness.cpp",
+  "output": "heuristic/CMakeFiles/heuristic.dir/src/reduce_fitness.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/heuristic",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/heuristic.dir/src/sync_heuristic.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/src/sync_heuristic.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/src/sync_heuristic.cpp",
+  "output": "heuristic/CMakeFiles/heuristic.dir/src/sync_heuristic.cpp.o"
+},
+{
+  "directory": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/build/main",
+  "command": "/usr/bin/g++  -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/main/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/util/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/input/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/heuristic/include -I/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/solution/include -O3 -DNDEBUG -Wall -Wextra -Wshadow -o CMakeFiles/ctsp1_heuristic.dir/src/main.cpp.o -c /home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/main/src/main.cpp",
+  "file": "/home/jorge/code/practicas/TFG/CTSP1_heuristic/sources/main/src/main.cpp",
+  "output": "main/CMakeFiles/ctsp1_heuristic.dir/src/main.cpp.o"
+}
+]

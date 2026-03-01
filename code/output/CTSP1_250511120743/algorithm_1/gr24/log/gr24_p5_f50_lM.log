@@ -1,0 +1,26 @@
+- Starting heuristic -
+TSP  Iteration:       0   5630
+---- Iteration:       0   5630
+TSP  Iteration:       4   5400
+---- Iteration:     500   5400
+---- Iteration:    1000   5400
+---- Iteration:    1500   5400
+---- Iteration:    2000   5400
+---- Iteration:    2500   5400
+---- Iteration:    3000   5400
+---- Iteration:    3500   5400
+---- Iteration:    4000   5400
+---- Iteration:    4500   5400
+TSP  Iteration:       0   5264
+---- Iteration:       0   5264
+---- Iteration:     500   5264
+---- Iteration:    1000   5264
+---- Iteration:    1500   5264
+---- Iteration:    2000   5264
+---- Iteration:    2500   5264
+---- Iteration:    3000   5264
+---- Iteration:    3500   5264
+---- Iteration:    4000   5264
+---- Iteration:    4500   5264
+Feasible solution found
+

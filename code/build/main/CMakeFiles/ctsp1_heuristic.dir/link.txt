@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/ctsp1_heuristic.dir/src/main.cpp.o -o ctsp1_heuristic  ../util/libgomautil.a ../input/libctsp_io.a ../heuristic/libheuristic.a ../solution/libctsp_sol.a ../input/libctsp_io.a ../util/libgomautil.a 
