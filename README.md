@@ -6,14 +6,21 @@ This repository contains a **heuristic combinatorial optimization solver** devel
 
 ## Problem statement (high level)
 
-Given a set of candidate astronomical targets and a set of feasibility constraints between consecutive acquisitions/observations, we want to produce an **ordered plan** that:
+MIRADAS operates with **multiple robotic arms** that must repeatedly **reconfigure** to acquire and observe a sequence of astronomical targets. The planning problem is to build an observation plan where **each arm visits a sequence of targets**, while the instrument remains operationally feasible at every step.
 
-- Respects instrument/operational constraints between consecutive targets, and  
-- Optimizes an objective related to **target prioritization** (e.g., maximizing total priority / minimizing cost).
+In a typical plan, the instrument goes through a series of **configurations**:
+- In each configuration, each arm is assigned to a target (or remains unused), enabling multi-object observations.
+- Between consecutive configurations, arms must **move/reposition** to their next assigned targets.
 
-In practice, the difficulty comes from the fact that not all transitions between targets are feasible, and feasibility depends on the instrument’s physical and operational limitations.
+The key challenge is that these arm routes are **coupled** by hard operational constraints, such as:
+- **Kinematic feasibility** (each arm can only reach certain targets/configurations),
+- **Collision/interaction constraints** between arms during a configuration and/or during transitions,
+- **Multi-arm consistency** when a target requires coordinated acquisition (e.g., multiple arms must observe within a bounded temporal alignment).
 
----
+### No-wait requirement
+This project focuses on the **no-wait** setting: once a configuration is completed, the instrument proceeds immediately to the next one—**arms cannot “pause” or insert idle time** to resolve mismatches. Timing is therefore tightly determined by the chosen transitions, and a plan that would be feasible with waiting can become infeasible under no-wait operation.
+
+Overall, the goal is to produce **feasible multi-arm target sequences** that maximize observation efficiency (e.g., reduce total repositioning time/cost while respecting target priorities), under these tightly constrained, synchronized dynamics.
 
 ## Modeling: No-Wait CTSP1
 
