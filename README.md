@@ -6,7 +6,7 @@ This repository contains a **heuristic combinatorial optimization solver** devel
 
 ## Problem statement (high level)
 
-MIRADAS operates with **multiple robotic arms** that must repeatedly **reconfigure** to acquire and observe a sequence of astronomical targets. The planning problem is to build an observation plan where **each arm visits a sequence of targets**, while the instrument remains operationally feasible at every step.
+The telescope instrument MIRADAS operates with **multiple robotic arms** that must repeatedly **reconfigure** to acquire and observe a sequence of astronomical targets. The planning problem is to build an observation plan where **each arm visits a sequence of targets**, while the instrument remains operationally feasible at every step.
 
 In a typical plan, the instrument goes through a series of **configurations**:
 - In each configuration, each arm is assigned to a target (or remains unused), enabling multi-object observations.
