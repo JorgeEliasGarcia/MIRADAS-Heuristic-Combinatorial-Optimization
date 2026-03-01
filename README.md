@@ -8,8 +8,8 @@ This repository contains a **heuristic combinatorial optimization solver** devel
 
 Given a set of candidate astronomical targets and a set of feasibility constraints between consecutive acquisitions/observations, we want to produce an **ordered plan** that:
 
-- respects instrument/operational constraints between consecutive targets, and  
-- optimizes an objective related to **target prioritization** (e.g., maximizing total priority / minimizing cost).
+- Respects instrument/operational constraints between consecutive targets, and  
+- Optimizes an objective related to **target prioritization** (e.g., maximizing total priority / minimizing cost).
 
 In practice, the difficulty comes from the fact that not all transitions between targets are feasible, and feasibility depends on the instrument’s physical and operational limitations.
 
@@ -43,9 +43,8 @@ The implementation is written in **C++**, designed to be fast and easy to benchm
 
 The solver is evaluated through an extensive benchmark on **756 TSPLIB instances**, including an **exhaustive analysis of results**, such as:
 
-- solution quality across different instance families and sizes  
-- robustness and repeatability  
-- runtime/performance behavior
+- Solution quality across different instance families and sizes    
+- Runtime/performance behavior
 
 These experiments are intended to provide a clear picture of when the heuristics work best and how performance scales with problem difficulty.
 
